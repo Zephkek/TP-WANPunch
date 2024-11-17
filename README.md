@@ -242,6 +242,10 @@ https://github.com/user-attachments/assets/d3eb3337-5ebd-46ed-8dbc-a20742b86c43
   - **Behavior:** Router crashes and becomes unresponsive.
   - **Implication:** indications of potential buffer overflow or memory corruption due to lack of input validation and handling of excessively large inputs which can allow for RCE.
 
+### Persistent effects:
+- After testing these payloads for a while we noticed that at some point the router will restart it self and stay in a state where there's no internet connectivity which is most likely a result of a configuration corruption somewhere due to unsafe restarts, to tfix this the config needs to be reset.
+<img src="https://github.com/user-attachments/assets/41f2cfb5-0575-474f-9873-9e3e033197c3" alt="Description" width="500"/>
+
 
 ## Remediation
 ### Temporary Mitigations
