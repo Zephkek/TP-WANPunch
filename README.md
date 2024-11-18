@@ -246,6 +246,7 @@ https://github.com/user-attachments/assets/d3eb3337-5ebd-46ed-8dbc-a20742b86c43
 - After testing these payloads for a while I noticed that at some point the router will restart it self and stay in a state where there's no internet connectivity which is most likely a result of a configuration corruption somewhere due to unsafe restarts, to fix this the config had to be reset.
 <img src="https://github.com/user-attachments/assets/41f2cfb5-0575-474f-9873-9e3e033197c3" alt="Description" width="500"/>
 
+- Another effect i noticed while testing the 2nd command is that in some cases the router will stay frozen and will not restart requring manual intervention.
 
 ## Remediation
 ### Temporary Mitigations
