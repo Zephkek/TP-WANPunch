@@ -1,4 +1,4 @@
-# UPnP WANIPConnection DoS and Memory Corruption Vulnerabilities 
+# UPnP WANIPConnection1 DoS and Memory Corruption Vulnerabilities 
 
 ## Overview
 Two critical vulnerabilities have been identified in the UPnP implementation of TP-Link VN020-F3v(T) router model, specifically affecting the routers deployed by Tunisie Telecom and Topnet and other variants in Algeria and Morocco. These vulnerabilities allow unauthenticated attackers to disrupt network operations and potentially cause memory corruption on the affected routers through a single malformed SOAP request over UPnP. The vulnerabilities are present in firmware version TT_V6.2.1021 running UPnP/1.0 BLR-TX4S/1.0.
